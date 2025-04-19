@@ -1,7 +1,7 @@
-def main():
-    x = int(input("Waht's x? "))
-    print("z squared is", square(x))
+x = int(input("Waht's x? "))
+y = int(input("What's y? "))
 
-def square(n):
-    return pow(n, 2)
-main()
+if x != y:
+    print(" xo is not equal to y")
+else: 
+    print("x is equal to y")
