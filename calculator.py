@@ -1,7 +1,10 @@
-x = int(input("Waht's x? "))
-y = int(input("What's y? "))
+def main():
+    x = int(input("What's x? "))
+    print("x squared is", square(x))
 
-if x != y:
-    print(" xo is not equal to y")
-else: 
-    print("x is equal to y")
+def square(n):
+    return n * n
+
+# Avoiding call main automatically itself
+if __name__ == "__main__":
+    main()
